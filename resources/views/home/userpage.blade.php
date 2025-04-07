@@ -59,7 +59,7 @@
          </p>
       </div>
       <!-- jQery -->
-      <script src="home/js/jquery-3.4.1.min.js"></script>home/
+      <script src="home/js/jquery-3.4.1.min.js"></script>
       <!-- popper js -->
       <script src="home/js/popper.min.js"></script>
       <!-- bootstrap js -->
