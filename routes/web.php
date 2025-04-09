@@ -26,3 +26,11 @@ route::get('/view_product', action: [AdminController::class, 'view_product']);
 route::post('/add_product', action: [AdminController::class, 'add_product']);
 
 route::get('/show_product', action: [AdminController::class, 'show_product']);
+
+route::get('/delete_product/{id}', action: [AdminController::class, 'delete_product']);
+
+route::get('/edit_product/{id}', action: [AdminController::class, 'edit_product']);
+
+route::post('/edit_product_confirm/{id}', action: [AdminController::class, 'edit_product_confirm']);
+
+route::get('/product_details/{id}', action: [HomeController::class, 'product_details']);
